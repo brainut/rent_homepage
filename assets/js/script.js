@@ -15,9 +15,8 @@
 
     hero_eyebrow:   { en: "Hakgye Station, Exit 2 · Nowon-gu, Seoul", ko: "하계역 2번 출구 · 서울 노원구" },
     hero_title:     { en: "A quiet, sun-filled studio two minutes from the subway", ko: "지하철에서 2분, 볕이 잘 드는 조용한 스튜디오" },
-    hero_sub:       { en: "A south-facing apartment with a real kitchen, soft linens and room to breathe — a calm home base for exploring Seoul, run by a host who lives five minutes away.", ko: "주방과 세탁기를 모두 갖춘 남향 스튜디오. 서울을 여행하는 동안 편히 쉴 수 있는 곳이며, 도보 5분 거리에 사는 호스트가 직접 운영합니다." },
+    hero_sub:       { en: "A south-facing apartment with a real kitchen, soft linens and room to breathe — a calm home base for exploring Seoul, with a host who's quick to reply and always kind about it.", ko: "주방과 세탁기를 모두 갖춘 남향 스튜디오. 서울을 여행하는 동안 편히 쉴 수 있는 곳이며, 언제든 빠르고 친절하게 답해주는 호스트가 함께합니다." },
     hero_cta_dates: { en: "Check dates & price", ko: "날짜·요금 확인하기" },
-    hero_cta_message:{ en: "Message the host",  ko: "호스트에게 메시지" },
     scroll_cue:     { en: "Scroll",  ko: "스크롤" },
 
     trust_rating:   { en: "Host rating · 6 reviews", ko: "호스트 평점 · 후기 6개" },
@@ -35,6 +34,9 @@
 
     gallery_eyebrow:{ en: "Look Around", ko: "둘러보기" },
     gallery_title:  { en: "Every corner, as it actually looks", ko: "실제 모습 그대로" },
+    gallery_group_living: { en: "Living & Sleeping", ko: "거실 · 침실" },
+    gallery_group_kitchen:{ en: "Kitchen", ko: "주방" },
+    gallery_group_bath:   { en: "Bathroom & Details", ko: "욕실 · 디테일" },
 
     access_eyebrow: { en: "Getting Here", ko: "오시는 길" },
     access_title:   { en: "Closer to everything than it looks on a map", ko: "지도보다 훨씬 가까운 거리" },
@@ -69,36 +71,51 @@
     am_5_desc:      { en: "Wardrobe and shoe cabinet, so your things have a place from day one.", ko: "옷장과 신발장이 있어 도착 첫날부터 짐 정리가 편합니다." },
     am_6_title:     { en: "Real workspace", ko: "제대로 된 작업 공간" },
     am_6_desc:      { en: "A proper table and chair for a laptop day, not a perch on the bed.", ko: "침대 위가 아닌, 노트북 작업하기 좋은 테이블과 의자가 있습니다." },
+    am_7_title:     { en: "Building parking", ko: "건물 내 주차" },
+    am_7_desc:      { en: "On-site parking if you're arriving with a rental car.", ko: "렌터카로 방문하셔도 건물 내 주차가 가능합니다." },
+    am_8_title:     { en: "Elevator", ko: "엘리베이터" },
+    am_8_desc:      { en: "No stairs with your luggage — the elevator runs straight to the 5th floor.", ko: "짐을 들고 계단을 오를 필요 없이, 엘리베이터로 5층까지 바로 이동합니다." },
+    am_9_title:     { en: "Building security", ko: "보안 시설" },
+    am_9_desc:      { en: "CCTV and a fire alarm are in place throughout the building.", ko: "건물 내 CCTV와 화재 경보기가 설치되어 있습니다." },
 
     stay_eyebrow:   { en: "Rates & Terms", ko: "요금 및 이용안내" },
-    stay_title:     { en: "Priced by the week, the way Seoul does short stays", ko: "서울의 단기임대 방식대로, 주 단위 요금" },
-    rate_1_label:   { en: "Weekly rate", ko: "주간 임대료" },
-    rate_2_label:   { en: "4+ week stay (10% off)", ko: "4주 이상 계약 시 (10% 할인)" },
+    stay_title:     { en: "Straightforward monthly pricing", ko: "간단명료한 월 단위 요금" },
+    rate_1_label:   { en: "Monthly rate", ko: "월 임대료" },
     rate_3_label:   { en: "Management fee", ko: "관리비" },
-    rate_4_label:   { en: "One-time cleaning fee", ko: "청소비 (1회)" },
-    rate_5_label:   { en: "Security deposit", ko: "보증금" },
-    rate_per_week:  { en: "/ week", ko: "/ 주" },
-    rate_note:      { en: "Move in right away and ₩50,000 comes off the total. The deposit is fully refunded at check-out, minus any damage. Prices shown in Korean won (₩).", ko: "즉시 입주 시 5만 원이 할인됩니다. 보증금은 퇴실 시 파손이 없다면 전액 환불됩니다. 모든 금액은 원화(₩) 기준입니다." },
+    rate_3_value:   { en: "Included", ko: "포함" },
+    rate_per_month: { en: "/ month", ko: "/ 월" },
+    rate_note:      { en: "A fixed management fee is included in the rate; additional charges may apply only if utility usage goes beyond the standard allowance. Prices shown in Korean won (₩) and reflect the current listing — always confirm final pricing for your dates on the booking page.", ko: "고정 관리비가 요금에 포함되어 있으며, 사용량이 기준을 초과할 경우에만 추가 요금이 발생할 수 있습니다. 모든 금액은 원화(₩) 기준이며 현재 게시된 요금입니다 — 실제 예약 날짜의 최종 요금은 예약 페이지에서 꼭 확인해 주세요." },
     info_1_dt:      { en: "Check-in / Check-out", ko: "입실 / 퇴실" },
-    info_1_dd:      { en: "From 3:00 PM · until 12:00 PM", ko: "오후 3시 입실 · 오후 12시 퇴실" },
+    info_1_dd:      { en: "From 3:00 PM · until 11:00 AM", ko: "오후 3시 입실 · 오전 11시 퇴실" },
     info_2_dt:      { en: "Minimum stay", ko: "최소 계약 기간" },
-    info_2_dd:      { en: "1 week", ko: "1주" },
+    info_2_dd:      { en: "2 weeks", ko: "2주" },
     info_3_dt:      { en: "Sleeps", ko: "인원" },
-    info_3_dd:      { en: "1 bedroom, 1 bathroom, best suited to a solo traveler or couple", ko: "방 1개, 욕실 1개 · 1인 또는 2인에게 적합" },
+    info_3_dd:      { en: "1 bedroom, 1 bathroom · up to 2 guests · 1 queen bed", ko: "방 1개, 욕실 1개 · 최대 2인 · 퀸 침대 1개" },
     info_4_dt:      { en: "House rules", ko: "이용 규칙" },
-    info_4_dd:      { en: "No smoking indoors · No pets", ko: "실내 흡연 불가 · 반려동물 동반 불가" },
+    info_4_dd:      { en: "No smoking indoors · No pets · Open to all guests", ko: "실내 흡연 불가 · 반려동물 동반 불가 · 성별 무관 이용 가능" },
+    info_5_dt:      { en: "Cancellation", ko: "취소 정책" },
+    info_5_dd:      { en: "Full refund if not yet confirmed by the host within 24 hours, or if canceled within 24 hours of payment on a confirmed booking. After that, refunds are prorated from your move-in date; the Enko service fee is non-refundable.", ko: "호스트 승인 전 24시간 이내에 확정되지 않으면 전액 환불되며, 승인 후에도 결제 후 24시간 이내 취소 시 전액 환불됩니다. 이후에는 입주일 기준으로 부분 환불되며, Enko 서비스 수수료는 환불되지 않습니다." },
 
     host_eyebrow:   { en: "Your Host", ko: "호스트 소개" },
-    host_title:     { en: "Hosted by someone who's five minutes away", ko: "도보 5분 거리에 사는 호스트" },
-    host_desc:      { en: "Rated 5.0 across 6 stays. Identity-verified, and quick to answer if anything comes up during your visit.", ko: "6건의 후기 모두 5.0점을 받았습니다. 본인인증을 완료했으며, 머무는 동안 문의사항에 빠르게 답변합니다." },
+    host_title:     { en: "A host who answers quickly, and kindly", ko: "빠르고 친절하게 답장하는 호스트" },
+    host_desc:      { en: "Rated 5.0 across 6 stays. Identity-verified, warm and easy to talk to, and quick to answer if anything comes up during your visit.", ko: "6건의 후기 모두 5.0점을 받았습니다. 본인인증을 완료했으며, 친절하고 편하게 소통할 수 있고, 머무는 동안 문의사항에 빠르게 답변합니다." },
     host_badge_1:   { en: "Identity verified", ko: "본인인증 완료" },
     host_badge_2:   { en: "5.0 rating", ko: "평점 5.0" },
     host_badge_3:   { en: "Fast response", ko: "빠른 응답" },
 
+    highlights_eyebrow: { en: "Guest Highlights", ko: "게스트 후기" },
+    highlights_title:   { en: "What past guests keep mentioning", ko: "지난 게스트들이 꾸준히 언급하는 것" },
+    highlights_count:   { en: "Based on 6 verified stays", ko: "인증된 후기 6건 기준" },
+    highlight_1_title:  { en: "The subway exit really is that close", ko: "정말로 가까운 지하철 출구" },
+    highlight_1_desc:   { en: "It's the detail guests bring up most — the walk from Exit 2 is exactly as short as advertised.", ko: "게스트들이 가장 많이 언급하는 부분입니다 — 2번 출구에서의 거리가 소개된 그대로 짧습니다." },
+    highlight_2_title:  { en: "Spotless, every time", ko: "매번 완벽하게 깨끗한 상태" },
+    highlight_2_desc:   { en: "Cleanliness shows up in nearly every review — the host resets the space fully between stays.", ko: "거의 모든 후기에서 언급되는 청결함 — 매 숙박마다 공간을 완전히 정리합니다." },
+    highlight_3_title:  { en: "Exactly what the photos show", ko: "사진과 완전히 일치하는 공간" },
+    highlight_3_desc:   { en: "No surprises at check-in — guests consistently say the space matches the listing.", ko: "체크인 시 실망할 일이 없습니다 — 게스트들은 사진과 실제가 같다고 꾸준히 말합니다." },
+
     cta_title:      { en: "Come see it for yourself", ko: "직접 확인해 보세요" },
-    cta_sub:        { en: "Check live availability and pricing on the booking page, or message the host directly with questions before you commit.", ko: "예약 페이지에서 실시간 요금과 예약 가능 여부를 확인하거나, 예약 전 호스트에게 직접 문의해 보세요." },
+    cta_sub:        { en: "Check live availability and pricing on the booking page before you commit.", ko: "예약 전 예약 페이지에서 실시간 요금과 예약 가능 여부를 확인해 보세요." },
     cta_book:       { en: "Check dates & book", ko: "날짜 확인 후 예약하기" },
-    cta_message:    { en: "Message on WhatsApp / KakaoTalk", ko: "왓츠앱 / 카카오톡으로 문의" },
 
     footer_address: { en: "Gongneung-ro 351, Hagye-dong, Nowon-gu, Seoul — 2 min walk from Hakgye Station Exit 2 (Line 7).", ko: "서울특별시 노원구 공릉로 351 (하계동) — 하계역 7호선 2번 출구 도보 2분." },
     footer_book:    { en: "Check dates", ko: "날짜 확인하기" },
@@ -178,36 +195,20 @@
     if (e.key === "ArrowRight") step(1);
   });
 
-  /* ---------------- messenger placeholder ---------------- */
-  const pendingMessageLinks = [
-    document.getElementById("msgHostBtn"),
-    document.getElementById("msgHostBtn2"),
-  ].filter(Boolean);
-
-  let toastTimer = null;
-  function showToast(msg) {
-    let toast = document.getElementById("hakgyeToast");
-    if (!toast) {
-      toast = document.createElement("div");
-      toast.id = "hakgyeToast";
-      toast.setAttribute("role", "status");
-      toast.style.cssText = "position:fixed;left:50%;bottom:28px;transform:translateX(-50%);background:#2b2620;color:#f7f3ec;padding:0.8rem 1.2rem;border-radius:4px;font-size:0.85rem;z-index:300;box-shadow:0 8px 24px rgba(0,0,0,0.25);";
-      document.body.appendChild(toast);
-    }
-    toast.textContent = msg;
-    toast.style.opacity = "1";
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => { toast.style.opacity = "0"; }, 2600);
+  /* ---------------- scroll reveal ---------------- */
+  const revealTargets = document.querySelectorAll("[data-reveal]");
+  if (revealTargets.length && "IntersectionObserver" in window) {
+    document.documentElement.classList.add("reveal-enabled");
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: "0px 0px -8% 0px" });
+    revealTargets.forEach((el) => revealObserver.observe(el));
   }
-
-  pendingMessageLinks.forEach((link) => {
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-      showToast(currentLang === "ko"
-        ? "연락처 링크가 곧 연결될 예정입니다. 지금은 33m2 예약 페이지를 이용해 주세요."
-        : "Direct messaging link coming soon — please use the booking page for now.");
-    });
-  });
 
   document.getElementById("year").textContent = new Date().getFullYear();
 })();

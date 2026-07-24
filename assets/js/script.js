@@ -13,7 +13,7 @@
     nav_host:       { en: "Host",             ko: "호스트" },
     nav_book:       { en: "Check dates",      ko: "예약 확인" },
 
-    hero_eyebrow:   { en: "Hakgye Station, Exit 2 · Nowon-gu, Seoul", ko: "하계역 2번 출구 · 서울 노원구" },
+    hero_eyebrow:   { en: "Hagye Station, Exit 2 · Nowon-gu, Seoul", ko: "하계역 2번 출구 · 서울 노원구" },
     hero_title:     { en: "A quiet, sun-filled studio two minutes from the subway", ko: "지하철에서 2분, 볕이 잘 드는 조용한 스튜디오" },
     hero_sub:       { en: "A south-facing apartment with a real kitchen, soft linens and room to breathe — a calm home base for exploring Seoul, with a host who's quick to reply and always kind about it.", ko: "주방과 세탁기를 모두 갖춘 남향 스튜디오. 서울을 여행하는 동안 편히 쉴 수 있는 곳이며, 언제든 빠르고 친절하게 답해주는 호스트가 함께합니다." },
     hero_cta_dates: { en: "Check dates & price", ko: "날짜·요금 확인하기" },
@@ -41,7 +41,7 @@
     access_eyebrow: { en: "Getting Here", ko: "오시는 길" },
     access_title:   { en: "Closer to everything than it looks on a map", ko: "지도보다 훨씬 가까운 거리" },
     route_1_time:   { en: "2 min walk", ko: "도보 2분" },
-    route_1_desc:   { en: "From Hakgye Station Exit 2 (Line 7) straight to the building — no transfers, no long block to find it.", ko: "하계역 7호선 2번 출구에서 건물까지 직진. 환승도, 헤매는 골목도 없습니다." },
+    route_1_desc:   { en: "From Hagye Station Exit 2 (Line 7) straight to the building — no transfers, no long block to find it.", ko: "하계역 7호선 2번 출구에서 건물까지 직진. 환승도, 헤매는 골목도 없습니다." },
     route_2_time:   { en: "1 bus", ko: "버스 한 번" },
     route_2_desc:   { en: "A direct bus to Gangnam and to Incheon International Airport stops right outside the building.", ko: "건물 바로 앞 정류장에서 강남과 인천국제공항으로 가는 직행버스를 탈 수 있습니다." },
     route_3_time:   { en: "On foot", ko: "도보로" },
@@ -117,7 +117,7 @@
     cta_sub:        { en: "Check live availability and pricing on the booking page before you commit.", ko: "예약 전 예약 페이지에서 실시간 요금과 예약 가능 여부를 확인해 보세요." },
     cta_book:       { en: "Check dates & book", ko: "날짜 확인 후 예약하기" },
 
-    footer_address: { en: "Gongneung-ro 351, Hagye-dong, Nowon-gu, Seoul — 2 min walk from Hakgye Station Exit 2 (Line 7).", ko: "서울특별시 노원구 공릉로 351 (하계동) — 하계역 7호선 2번 출구 도보 2분." },
+    footer_address: { en: "Gongneung-ro 351, Hagye-dong, Nowon-gu, Seoul — 2 min walk from Hagye Station Exit 2 (Line 7).", ko: "서울특별시 노원구 공릉로 351 (하계동) — 하계역 7호선 2번 출구 도보 2분." },
     footer_book:    { en: "Check dates", ko: "날짜 확인하기" },
     footer_note:    { en: "Photos and details reflect the actual apartment. Availability and final pricing are confirmed at booking.", ko: "게재된 사진과 정보는 실제 숙소를 기준으로 합니다. 최종 예약 가능 여부와 요금은 예약 시 확인됩니다." },
   };
@@ -136,7 +136,7 @@
     document.querySelectorAll(".lang-toggle button").forEach((btn) => {
       btn.setAttribute("aria-pressed", String(btn.dataset.lang === lang));
     });
-    try { localStorage.setItem("hakgye-lang", lang); } catch (e) { /* ignore */ }
+    try { localStorage.setItem("hagye-lang", lang); } catch (e) { /* ignore */ }
   }
 
   document.querySelectorAll(".lang-toggle button").forEach((btn) => {
@@ -144,7 +144,7 @@
   });
 
   let savedLang = "en";
-  try { savedLang = localStorage.getItem("hakgye-lang") || "en"; } catch (e) { /* ignore */ }
+  try { savedLang = localStorage.getItem("hagye-lang") || "en"; } catch (e) { /* ignore */ }
   applyLang(savedLang);
 
   /* ---------------- header scroll state ---------------- */
